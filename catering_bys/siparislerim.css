@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("arkaplan.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    border:0;
+}
+.menu{width:200px;}
+
+.menu ul {list-style:none;}
+.menu ul li a {background:#1d2b37;
+color:white;
+font:15px verdana, arial;
+display:block;
+padding:40px 0px;
+text-decoration:none;
+text-align:center;
+}
+.menu > ul > li{
+    border-right: 5px solid #F1C40F;
+}
+.menu ul li ul{
+    width: 150px;
+    transition: all 0.3s;
+    opacity: 0;
+    position:  absolute;
+    margin: -98px 0 0 0;
+    visibility: hidden;
+    left: 200px;
+
+}
+.menu ul li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+#anasayfa{border-left:0px solid #B3AE91;}
+#anasayfa:hover{background:#B3AE91;}
+
+#mus{border-left:0px solid #B3AE91;}
+#mus:hover{background:#B3AE91;}
+
+#param{border-left:0px solid #B3AE91;}
+#param:hover{background:#B3AE91;}
+
+#rapor{border-left:0px solid #B3AE91;}
+#rapor:hover{background:#B3AE91;}
+
+#siparis{border-left:0px solid #B3AE91;}
+#siparis:hover{background:#B3AE91;}
+
+#musteriekle{border-left:0px solid #B3AE91;}
+#musteriekle:hover{background:#B3AE91;}
+
+#musterilerim{border-left:0px solid #B3AE91;}
+#musterilerim:hover{background:#B3AE91;}
+
+#gunsonu{border-left:0px solid #B3AE91;}
+#gunsonu:hover{background:#B3AE91;}
+
+#cikis{border-left:0px solid #B3AE91;}
+#cikis:hover{background:#B3AE91;}
+
+
+div.siparislerim{
+    font-family:Verdana,  Tahoma, sans-serif;
+    position: absolute;
+    left: 350px;
+    width: 900px;
+    height: 723px;
+    padding: 15px;
+    background-color:#687e8d ;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    top: 0;
+}
+
+
+div.siparislerim tr td {
+    padding-left: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid 1px #0b1c27;
+    background-color: #C0C0C0; 
+}
+

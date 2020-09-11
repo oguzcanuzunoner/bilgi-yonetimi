@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("arkaplan.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    border:0;
+}
+.menu{width:200px;}
+
+.menu ul {list-style:none;}
+.menu ul li a {background:#1d2b37;
+color:white;
+font:15px verdana, arial;
+display:block;
+padding:40px 0px;
+text-decoration:none;
+text-align:center;
+}
+.menu > ul > li{
+    border-right: 5px solid #F1C40F;
+}
+.menu ul li ul{
+    width: 150px;
+    transition: all 0.3s;
+    opacity: 0;
+    position:  absolute;
+    margin: -98px 0 0 0;
+    visibility: hidden;
+    left: 200px;
+
+}
+.menu ul li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#mus{border-left:0px solid #B3AE91;}
+#mus:hover{background:#B3AE91;}
+
+#param{border-left:0px solid #B3AE91;}
+#param:hover{background:#B3AE91;}
+
+#rapor{border-left:0px solid #B3AE91;}
+#rapor:hover{background:#B3AE91;}
+
+#siparis{border-left:0px solid #B3AE91;}
+#siparis:hover{background:#B3AE91;}
+
+#musteriekle{border-left:0px solid #B3AE91;}
+#musteriekle:hover{background:#B3AE91;}
+
+#musterilerim{border-left:0px solid #B3AE91;}
+#musterilerim:hover{background:#B3AE91;}
+
+#gunsonu{border-left:0px solid #B3AE91;}
+#gunsonu:hover{background:#B3AE91;}
+
+#cikis{border-left:0px solid #B3AE91;}
+#cikis:hover{background:#B3AE91;}
+
+
+
+.form{
+    position: absolute;
+    margin: auto;
+    width: 950px;
+    height: 900px;
+    background-color: #687e8d;
+    top:0%;
+    left:25%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+
+.forumaralik{
+    display: table;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+
+.kulgir{
+    border-radius: 3px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid grey;   
+    background-color: #d3d3d3; 
+    margin: 13px 12px 12px 10px;
+
+}
+
+.form-group col-md-4 control-label{
+    width: 20px;
+
+}
+
+
+.form-input:focus{
+    border:5px solid;
+    color : yellowgreen
+}
+
+
+
+.container {
+    display: block;
+    position: relative;
+    left: 80px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.btn{
+  background-color: #1d2b37;
+  cursor: pointer ;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.35) ;
+  position: absolute;
+  top: 700px;
+  left: 415px;
+}
+
+
+.adres{
+    background-color: #d3d3d3;
+    float: left;
+    font-family: sans-serif;
+    border: 1px solid grey; 
+
+}
